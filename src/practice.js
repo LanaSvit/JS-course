@@ -13,6 +13,7 @@ console.log(typeof myName);
 console.log(typeof mySurname);
 console.log(typeof myAge);
 console.log(typeof mySoulAge);
+console.log(typeof (myAge == mySoulAge));
 console.log(typeof myBook);
 
 /*data comparison*/
