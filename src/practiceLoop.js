@@ -10,6 +10,8 @@ const longestCommonString = (arr) => {
   for (let i = 0; i < arr[0].length; i++) {
     if (arr.every((str) => str[i] === arr[0][i])) {
       commonString += arr[0][i];
+    } else {
+      break;
     }
   }
 
